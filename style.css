@@ -53,3 +53,47 @@ a {
 .back {
   color: rgba(29, 43, 83, 0.7);
 }
+
+form {
+  display: grid;
+  gap: 8px;
+}
+
+label {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+select,
+textarea,
+input,
+button {
+  font: inherit;
+  color: var(--navy);
+  border: 2px solid var(--navy);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: var(--card);
+}
+
+button {
+  margin-top: 12px;
+  background: var(--yellow);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.trap {
+  position: absolute;
+  left: -9999px;
+}
+
+.note {
+  margin-top: 24px;
+  font-size: 0.9rem;
+  color: rgba(29, 43, 83, 0.7);
+}
